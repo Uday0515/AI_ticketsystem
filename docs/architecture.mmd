@@ -1,0 +1,24 @@
+flowchart LR
+    user[Analyst / support team]
+    ui[Streamlit UI<br/>Port 8501]
+    api[FastAPI API<br/>Port 8000]
+    loader[Data loader<br/>validation + derived fields]
+    csv[(support_tickets.csv)]
+    query[NL query engine<br/>intent + filters]
+    validator[AST expression validator<br/>safe pandas evaluation]
+    llm[LLM client<br/>mock or Groq]
+    anomaly[Anomaly detector<br/>rule-based checks]
+    response[JSON results<br/>answers + records]
+
+    user --> ui
+    ui -->|POST /query<br/>GET /anomalies| api
+    api --> loader
+    loader --> csv
+    api --> query
+    api --> anomaly
+    query --> validator
+    query -. optional generation .-> llm
+    validator --> response
+    anomaly --> response
+    response --> api
+    api --> ui

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">Ticket Analytics interface preview</title>
+  <desc id="desc">Dark Ticket Analytics dashboard with a natural-language query field, result, and anomaly controls.</desc>
+  <rect width="1400" height="760" fill="#0d0f14"/>
+  <rect x="32" y="28" width="1336" height="704" rx="10" fill="#11141b" stroke="#2c313d"/>
+  <text x="96" y="105" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="36" font-weight="700">Ticket Analytics</text>
+  <text x="96" y="140" fill="#9ba3b2" font-family="Segoe UI, sans-serif" font-size="16">Ask a question about the ticket data or check for anomalies.</text>
+  <text x="96" y="184" fill="#e4e8ef" font-family="Segoe UI, sans-serif" font-size="14">Question</text>
+  <rect x="96" y="198" width="1208" height="44" rx="6" fill="#242731"/>
+  <text x="112" y="226" fill="#aab1bf" font-family="Segoe UI, sans-serif" font-size="16">How many tickets are currently open?</text>
+  <text x="96" y="278" fill="#e4e8ef" font-family="Segoe UI, sans-serif" font-size="14">Examples</text>
+  <rect x="96" y="292" width="1208" height="44" rx="6" fill="#242731"/>
+  <text x="112" y="320" fill="#f2f4f8" font-family="Segoe UI, sans-serif" font-size="16">Which agent resolved the most tickets this month?</text>
+  <rect x="96" y="356" width="74" height="40" rx="6" fill="#11141b" stroke="#ff4b5c"/>
+  <text x="116" y="382" fill="#ff6472" font-family="Segoe UI, sans-serif" font-size="16">Ask</text>
+  <text x="96" y="446" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">Here is the result: {&quot;AGT-01&quot;: 16}</text>
+  <line x1="96" y1="492" x2="1304" y2="492" stroke="#2c313d"/>
+  <text x="96" y="548" fill="#f5f7fb" font-family="Segoe UI, sans-serif" font-size="24" font-weight="700">Anomalies</text>
+  <rect x="96" y="578" width="584" height="44" rx="6" fill="#242731"/>
+  <text x="112" y="606" fill="#f2f4f8" font-family="Segoe UI, sans-serif" font-size="16">Recent days: 7</text>
+  <rect x="720" y="578" width="584" height="44" rx="6" fill="#242731"/>
+  <text x="736" y="606" fill="#f2f4f8" font-family="Segoe UI, sans-serif" font-size="16">Severity: All</text>
+</svg>
